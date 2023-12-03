@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "chart.js": "^4.0.0",
+    "chartjs-adapter-moment": "^1.0.1",
+    "moment": "^2.29.4",
+    "untils": "^1.0.0",
+    "utils": "^0.3.1",
+    "vue": "^3.3.9"
+  },
+  "name": "crm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "alias": {
+    "vue" : "./node_modules/vue/dist/vue.common.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}

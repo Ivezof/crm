@@ -178,6 +178,7 @@
 
 .info__content {
     width: 100%;
+    margin-bottom: 125px;
 }
 
 .default__table {
@@ -220,4 +221,16 @@
 .filtered::before {
     content: url('/img/filter.svg');
     margin-right: 15px;
+}
+
+#chart__profit {
+    width: 1000px;
+}
+
+.menu__text-enter-active, .menu__text-leave-active {
+    transition: opacity .5s;
+}
+
+.menu__text-enter, .menu__text-leave-to {
+    opacity: 0;
 }
